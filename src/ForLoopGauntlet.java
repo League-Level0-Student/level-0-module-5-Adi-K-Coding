@@ -26,20 +26,28 @@ public class ForLoopGauntlet {
 				System.out.println(i + " is odd.");
 			}
 		}
-System.out.println("Next Program.");
-	for (int i = 0; i < 778; i=i+7) {
-		System.out.println(i);
+		System.out.println("Next Program.");
+		for (int i = 0; i < 778; i = i + 7) {
+			System.out.println(i);
 		}
-	System.out.println("Next Program.");
-	for (int i = 2006; i < 2019; i++) {
-		 System.out.println();
-	}
-	
-	
-	
-	
-	
-	}
-	}
+		System.out.println("Next Program.");
+		for (int i = 2006; i < 2019; i++) {
+			System.out.println();
+		}
+		System.out.println("Next Program.");
+		for (int i = 0; i < 3; i++) {
 
+			for (int j = 0; j < 3; j++) {
+				System.out.println(i + " " + " " + j);
+			}
+		}
+		System.out.println("Next Program.");
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
 
+			}
+
+		}
+
+	}
+}
