@@ -42,12 +42,30 @@ public class ForLoopGauntlet {
 			}
 		}
 		System.out.println("Next Program.");
-		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-
+		for (int i = 0; i < 9; i += 3) {//rows  
+			for (int j = 1; j < 4; j++) {//how many 
+				System.out.print(j + i);
 			}
-
+			System.out.println();
 		}
+		System.out.println("Next Program.");
+		for (int i = 0; i < 100; i += 10) {
+			for (int j = 1; j <11; j++) {
+				System.out.print(j + i+" ");
+			}
+			System.out.println();
+		}
+		System.out.println("Next Program.");
+	
+for (int i = 1; i < 7; i++) {
+	for (int j = 0; j < i; j++) {
+		System.out.print("* ");
+	}
+	System.out.println();
+}	
 
+	
+	
+	
 	}
 }
