@@ -13,6 +13,7 @@ import javax.swing.JOptionPane;
 public class Code4Life {
 	
 	//1.  Ask the user how many hours they spent coding this week.
+	
 	public static void main(String[] args) {
 	String hoursOfCode = JOptionPane.showInputDialog("How long have you spent coding this week?");
 	int hoursOfCode1 = Integer.parseInt(hoursOfCode);
